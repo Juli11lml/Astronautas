@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('universo4.jpg') no-repeat fixed;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.formulario {
+    border: 2px solid #F96E46;
+    border-radius: 1px;
+    width: 400px;
+    margin: 50px auto;
+    padding: 40px 50px;
+}
+.formulario input {display: block;}
+
+
+/* --- INPUTS --- */
+
+input {
+    margin: 30px auto;
+    padding: 10px 15px;
+}
+
+/* --- INPUT NOMBRE Y CORREO --- */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"] {
+    background-color: #0E103D;
+    border: 2px solid #F96E46;
+}
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario input[type="password"]:focus {
+    color: #F9C846;
+}
+::placeholder {color: #F9C846;
+                font-family: "Oswald";}
+
+
+/* --- BOTON ENVIAR --- */
+.formulario input[type="submit"] {
+    border: 2px solid #F96E46;
+    background-color: #F96E46;
+    font-family: "Oswald";
+    font-size: 20px;
+    color: #0E103D;
+    border-radius: 1px;
+}
+.formulario input[type="submit"]:hover {
+    background: #F9C846;
+}
+.formulario input[type="submit"]:active {
+    background: #fff;
+}
+
+/* --- Línea de REGISTRO --- */
+span {
+    color: #F96E46;
+    display: inline-block;
+    margin: 0 auto;
+}
+span a {
+    text-decoration: none;
+    color: #F9C846;}
+span a:hover {
+    color: #fff;}
+span a:active {
+    color: #F9C846;}
